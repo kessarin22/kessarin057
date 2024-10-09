@@ -1,0 +1,92 @@
+
+h1{
+    background-color:rgb(141, 40, 9);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2{
+    background-color:rgb(16, 136, 22);
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3{
+    background-color:rgb(124, 92, 22);
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+img{
+    width:85%;
+    border: 5px dotted rgb(178, 189, 81);
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+
+.flex_container > div{
+    width: 300px;
+}
+
+ul{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 18pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#cinnamon{
+    width: 100%;
+}
+
+.flex_content{
+    display: flex;
+}
+
+ol{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 18pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.flex_step{
+    display: flex;
+}
+
+a:link{
+	color: #FF0000; 
+}  */
+/* visited link */
+a:visited{
+	color: #00FF00; 
+} 
+/* mouse over link */  
+ a:hover{ 
+	color: #FF00FF; 
+} 
+
+div a{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+.LINK_1{
+    text-align: center;
+}

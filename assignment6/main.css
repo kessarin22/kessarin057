@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('pic/Floral.jpg'); 
+}
+
+
+form {
+    background-color: #def2ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(34, 6, 217, 0.2);
+    width: 300px;
+    border: 2px solid #d8cf4e; 
+    outline: 5px dashed #d900ff;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #6f0062;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 48%; 
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #820d9a;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+span {
+    color: red;
+    font-size: 0.9em;
+}
+
+#errormsg {
+    color: red;
+}

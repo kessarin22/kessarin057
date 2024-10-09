@@ -1,0 +1,230 @@
+body {
+    font-family: 'Playfair Display', serif; 
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('pic/Floral.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(to right, #e24a93, #f1cbff);
+    color: #fff;
+    text-align: center;
+    padding: 20px; 
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif; 
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px; 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 1200px;
+}
+
+.project-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.project-picture img:hover {
+    transform: scale(1.05);
+}
+
+.project-picture img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.05);
+}
+
+
+.text-content {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.main-message {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #4A90E2;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #042141;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-picture img {
+        margin: 0 auto 20px;
+    }
+
+    .text-content {
+        padding-left: 0;
+    }
+}
+
+.Project, .Assignment {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 100%; 
+    max-width: 500px;
+    flex-grow: 1; 
+    margin: 0 10px;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #5513d7;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1cc6d8;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #17a2b8;
+    transform: translateY(-5px);
+}
+
+.home-container {
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+    background-color: #0056b3; 
+}
+
+.footer {
+    background: linear-gradient(to right, #e24a93, #f1cbff);
+    height: 100px; 
+    text-align: center;
+    padding: 20px;
+}
+
+.social-logo {
+    width: 60px; 
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 5px; 
+}
+
+
+
+
+
+
+
+
+
